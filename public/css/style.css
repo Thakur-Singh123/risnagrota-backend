@@ -1,0 +1,137 @@
+.notifaction-green {
+	color: green;
+	font-size: 18px;
+}
+.notifaction-red {
+	color: red;
+	font-size: 18px;
+}
+
+.form-group {
+    position: relative; 
+}
+
+#toggleCurrentPassword {
+    position: absolute; 
+    right: 10px; 
+    top: 70%; 
+    transform: translateY(-50%); 
+    z-index: 1; 
+}
+
+input[type="password"] {
+    padding-right: 30px; 
+}
+
+.project-actions.text-left.css-editdelete {
+	display: block ruby;
+}
+.table-responsive {
+	max-height: 100vh; 
+	overflow-y: auto;
+	border: 1px solid #ddd;
+}
+table thead th {
+	position: sticky;
+	top: 0;
+	background: #f8f9fa; 
+	z-index: 1;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+table th,
+table td {
+	padding: 8px 16px;
+	text-align: left;
+	border: 1px solid #ddd;
+}	
+/* Profile change photo CSS Start */
+.avatar-upload {
+    position: relative;
+    width: 150px;
+    /* margin: 20px auto; */
+}
+
+.avatar-upload .avatar-edit {
+    position: absolute;
+    bottom: 105px;
+    right: 2px;
+    z-index: 1;
+    padding: 0px 0px 1px 0px;
+}
+
+.avatar-upload .avatar-edit input {
+    display: none;
+}
+
+.avatar-upload .avatar-edit label {
+    width: 34px;
+    height: 34px;
+    background: #007a4d;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.avatar-upload .avatar-edit label i {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.avatar-upload .avatar-edit label:hover {
+    background: #005a36;
+}
+
+.add-new-student-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.avatar-upload .avatar-preview img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #007a4d;
+    object-fit: cover;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.user-panel {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 1000px
+}
+
+.user-panel .image {
+    margin-right: 10px; 
+}
+
+.user-panel .info {
+    text-align: right;
+    margin: 0px 0px -26px;
+}
+
+.user-panel .info p {
+    color: #e10ab3eb;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+	
